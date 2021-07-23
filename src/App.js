@@ -20,7 +20,7 @@ export default function App() {
     }
     text = text.replace(/\s+/g, '');
 
-    fetch(`https://minecraft-api.com/api/uuid/${text}`)
+    fetch(`https://minecraft-api.com/api/uuid/${text}`, {mode: 'no-cors'})
       .then(res => res.text())
       .then(result => {
         if (result === "Player not found !" || result === "") {
@@ -29,7 +29,7 @@ export default function App() {
           setLoading(false)
         }
         else {
-            fetch(`${api.base}${api.key}&uuid=${result}`)
+            fetch(`${api.base}${api.key}&uuid=${result}`, {mode: 'no-cors'})
             .then(bedwars_res => bedwars_res.json())
             .then(bedwars_json => {
               setLoading(true)
