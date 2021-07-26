@@ -26,7 +26,6 @@ export default function App() {
           setLoading(true)
           setPlayer(null)
           setLoading(false)
-          console.log(result);
         }
         else {
             fetch(`${api.base}${api.key}&uuid=${result.id}`)
