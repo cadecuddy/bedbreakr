@@ -89,6 +89,7 @@
 
 .stat-panel-box {
     background: transparent;
+    background-color: #d6b87d;
     display: block;
     position: absolute;
     margin-left: 7%;
@@ -117,6 +118,7 @@
     margin-left: 25px;
     line-height: 135%;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    background-color: #d6b87d;
 }
 
 .player-head {
@@ -164,6 +166,7 @@
 .number {
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    background-color: #d6b87d;
 }
 
 p {
@@ -180,7 +183,6 @@ p {
     margin-left: 50%;
     margin-top: 15px;
 
-    background-color: #ffffff;
     background: transparent;
 
     font-family: Minecraft;
