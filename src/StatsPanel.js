@@ -190,18 +190,18 @@ export default function StatsPanel({player_data}) {
                                         <p className="aligncenter">Final Deaths</p>
                                         <p className="alignright">Beds Lost</p> 
                                     </div>
-                                    <div className='gamemode-stat' style={{paddingTop:'35px'}}>
+                                    <div className='gamemode-stat' style={{paddingTop:'35px', color:'#D12A6F'}}>
                                         <p className="alignleft" style={{fontSize:'50px'}}>
                                             <CountUp start={0} end={getRatio(tabGamemodeID[tab - 1] + 'wins_bedwars', tabGamemodeID[tab - 1] + 'games_played_bedwars') * 100} delay={0} duration={.5} separator={','}/>%
                                         </p>
-                                        <p className="aligncenter" style={{fontSize:'50px'}}>
+                                        <p className="aligncenter" style={{fontSize:'50px', color:'#D12A6F'}}>
                                             <CountUp start={0} end={getRatio(tabGamemodeID[tab - 1] + 'final_kills_bedwars', tabGamemodeID[tab - 1] + 'final_deaths_bedwars')} delay={0} decimals={2} duration={.5} separator={','}/>
                                         </p>
-                                        <p className="alignright" style={{fontSize:'50px'}}>
+                                        <p className="alignright" style={{fontSize:'50px', color:'#D12A6F'}}>
                                             <CountUp start={0} end={getRatio(tabGamemodeID[tab - 1] + 'beds_broken_bedwars', tabGamemodeID[tab - 1] + 'beds_lost_bedwars')} delay={0} duration={.5} decimals={2} separator={','}/>
                                         </p> 
                                     </div>
-                                    <div className='gamemode-stat-labels' style={{marginTop:'-25px', backgroundColor:'transparent'}}>
+                                    <div className='gamemode-stat-labels' style={{marginTop:'-25px', backgroundColor:'transparent', color:'black'}}>
                                         <p className="alignleft">Winrate</p>
                                         <p className="aligncenter">Final K/D</p>
                                         <p className="alignright">Bed Ratio</p> 
