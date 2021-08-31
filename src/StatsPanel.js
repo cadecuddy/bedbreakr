@@ -90,10 +90,10 @@ export default function StatsPanel({player_data}) {
                                         </div>
                                     )}
                                 </CountUp>
-                                <CountUp start={0} end={getRatio('wins_bedwars', 'games_played_bedwars') * 100} delay={0} duration={1.5}>
+                                <CountUp start={0} end={getRatio('wins_bedwars', 'games_played_bedwars') * 100} delay={0} duration={1.5} decimals={1}>
                                     {({ countUpRef }) => (
                                         <div>
-                                            Win Percentage: <span className='number' ref={ countUpRef }/><p className='number'>%</p>
+                                            Win Percentage: <span className='number' style={{color:'#D12A6F'}} ref={ countUpRef }/>
                                         </div>
                                     )}
                                 </CountUp>    
@@ -114,7 +114,7 @@ export default function StatsPanel({player_data}) {
                                 <CountUp start={0} end={getRatio('final_kills_bedwars', 'final_deaths_bedwars')} delay={0} duration={1.4} decimals={2}>
                                     {({ countUpRef }) => (
                                         <div>
-                                            Final K/D: <span className='number' ref={ countUpRef}/>
+                                            Final K/D: <span className='number' style={{color:'#D12A6F'}} ref={ countUpRef}/>
                                         </div>
                                     )}
                                 </CountUp>
@@ -125,7 +125,7 @@ export default function StatsPanel({player_data}) {
                                         </div>
                                     )}
                                 </CountUp>  
-                                <CountUp start={0} end={displayStat('beds_lost_bedwars')} delay={0} duration={1.4}>
+                                <CountUp start={0} end={displayStat('beds_lost_bedwars')} delay={0} duration={1.4} separator={','}>
                                     {({ countUpRef }) => (
                                         <div>
                                             Beds Lost: <span  className='number' ref={ countUpRef}/>
@@ -135,14 +135,14 @@ export default function StatsPanel({player_data}) {
                                 <CountUp start={0} end={getRatio('beds_broken_bedwars', 'beds_lost_bedwars')} delay={0} duration={1.4} decimals={2}>
                                     {({ countUpRef }) => (
                                         <div>
-                                            Bed Ratio: <span  className='number' ref={ countUpRef}/>
+                                            Bed Ratio: <span  className='number' style={{color:'#D12A6F'}} ref={ countUpRef}/>
                                         </div>
                                     )}
                                 </CountUp>
                                 <CountUp start={0} end={displayStat('winstreak')} delay={0} duration={2.5}>
                                     {({ countUpRef }) => (
                                         <div>
-                                            Winstreak: <span  className='number' ref={ countUpRef}/>
+                                            Winstreak: <span  className='number'  style={{color:'gold'}} ref={ countUpRef}/>
                                         </div>
                                     )}
                                 </CountUp>        
