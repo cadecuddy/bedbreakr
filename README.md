@@ -8,7 +8,9 @@
 
 <h4 align="center"> A single-page web application designed for fast Minecraft Bedwars stat lookup built in <a href="https://github.com/facebook/react" target="_blank">React</a>.</h4>
 
-
+<p align="center">
+  <img src="public/bedbreakr.gif" alt="animated" width="850" height="550" />
+</p>
 
 <h3 align="center">
   <br>
