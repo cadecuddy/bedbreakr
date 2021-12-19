@@ -12,7 +12,6 @@
   <img src="public/bedbreakr.gif" alt="animated" width="850" height="550" />
 </p>
 
-
 <h3 align="center">
   <br>
     Access bedbreakr at <a href="https://bedbrea.kr">bedbrea.kr</a>
