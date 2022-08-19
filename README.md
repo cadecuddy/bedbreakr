@@ -23,3 +23,6 @@
 
 - [React](https://github.com/facebook/react) - Open-source front-end JavaScript library for building user interfaces or UI components.
 - [Hypixel API](https://api.hypixel.net/) - Data-Rich API for in depth statistics for players on the Minecraft Hypixel Network.
+
+
+*By Cade Cuddy*
