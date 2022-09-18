@@ -25,4 +25,4 @@
 - [Hypixel API](https://api.hypixel.net/) - Data-Rich API for in depth statistics for players on the Minecraft Hypixel Network.
 
 
-*By Cade Cuddy*
+[**By Cade Cuddy**](https://www.cadecuddy.com/)
